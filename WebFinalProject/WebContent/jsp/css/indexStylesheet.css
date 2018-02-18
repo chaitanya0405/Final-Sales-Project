@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	background-color: #e3e3e3;
+	width: auto;
+	margin:auto
+}
+
+#head{
+	text-align: center;
+	text-decoration: blink;
+	font-family: cambria;
+	font-style: oblique;
+	font-size: 40px ;
+	color: Green
+}
+
+.content ul{
+	color: red; 
+	font-family: helvetica;
+	font-size: 25px;
+	text-align: left;
+	list-style: none;
+}
+
+.menubar {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+	width: auto;
+	height: auto;
+}
+
+.menubar a {
+	font-family: helvetica;
+	text-align: center;
+    text-decoration: blink;
+    text-shadow: gray;
+    display: inline-table;
+    height: auto;
+    color: white;
+    padding: 19px;
+}
+
+.menubar a:hover {
+    border-radius: 10px;
+	background-color: #444;
+    padding: 19px; 
+    width: auto;
+    height: auto;
+}
