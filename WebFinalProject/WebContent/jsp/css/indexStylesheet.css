@@ -62,7 +62,7 @@ body{
 
 .tablestyle th,tr{
 	width: 50%;
-	height: auto;
-	border: 1px solid #ff0000;
+	height: 50%;
+	border: 1px solid #e3e3e3;
 }
 

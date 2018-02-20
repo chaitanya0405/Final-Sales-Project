@@ -18,12 +18,10 @@
 		<a href="#">About</a>
 	</div>
 	<table class="tablestyle">
-		<thead>
-			<tr>
-				<th>Heading 1</th>
-				<th>Heading 2</th>
-			</tr>
-		</thead>
+		<tr>
+			<th>Heading 1</th>
+			<th>Heading 2</th>
+		</tr>
 		<tr>
 			<td>data 1</td>
 			<td>data 2</td>
