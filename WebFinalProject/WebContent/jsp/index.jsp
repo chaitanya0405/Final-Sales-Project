@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -18,5 +17,19 @@
 		<a href="#">Help</a>
 		<a href="#">About</a>
 	</div>
+	<table class="tablestyle">
+		<thead>
+			<tr>
+				<th>Heading 1</th>
+				<th>Heading 2</th>
+			</tr>
+		</thead>
+		<tr>
+			<td>data 1</td>
+			<td>data 2</td>
+		</tr>
+	
+	</table>
+	
 </body>
 </html>
