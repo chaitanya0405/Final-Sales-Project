@@ -1,20 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link rel="stylesheet" href="css/indexStylesheet.css" />
-<title>Welcome Page</title>
+<title>Home</title>
 </head>
 <body>
-	<div id="head">Welcome</div>
-	<div class="menubar">
-		<a href="#">Home</a>
-		<a href="#">Dashboard</a>
-		<a href="#">Registrations</a>
-		<a href="#">Details</a>
-		<a href="#">Reports</a>
-		<a href="#">Help</a>
-		<a href="#">About</a>
-	</div>
+
 </body>
 </html>
