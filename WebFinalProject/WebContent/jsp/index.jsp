@@ -4,7 +4,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="css/indexStylesheet.css" />
 <title>Welcome Page</title>
 </head>
-<body><h1 align="center">Welcome</h1></body>
+<body>
+	<div id="head">Welcome</div>
+	<div class="menubar">
+		<a href="#">Home</a>
+		<a href="#">Dashboard</a>
+		<a href="#">Registrations</a>
+		<a href="#">Details</a>
+		<a href="#">Reports</a>
+		<a href="#">Help</a>
+		<a href="#">About</a>
+	</div>
+</body>
 </html>
