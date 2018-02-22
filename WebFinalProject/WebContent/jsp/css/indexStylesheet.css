@@ -1,8 +1,6 @@
 body{
-	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e3e3e3;
-	width: auto;
-	margin:auto
 }
 
 #head{
@@ -24,6 +22,7 @@ body{
 
 .menubar {
     background-color: black;
+    text-align: center;
     overflow: auto;
     white-space: nowrap;
 	width: auto;
@@ -57,7 +56,8 @@ body{
 	font-family: helvetica;
 	text-align: center;
 	border-style: solid;
-	border-color: #5b67fd;
+	/* border-color: #5b67fd; */
+	border-color: transparent;
 }
 
 .tablestyle th,tr{
@@ -66,3 +66,34 @@ body{
 	border: 1px solid #e3e3e3;
 }
 
+/* input.MyButton {
+	width: 25%;
+	height: 48px;
+	padding: 5px;
+	cursor: pointer;
+	font-weight: normal;
+	font-size: 25px;
+	background: #09f7eb;
+	color: #fff;
+	border: 0.1px solid #3366cc;
+	border-radius: 50px;
+}
+
+input.MyButton:hover {
+	color: #ffff00;
+	background: #000;
+	border: 1px solid #fff;
+}
+ */
+ 
+#loginlink{
+	font-family: helvetica;
+	font-style: italic;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+#loginlink:hover{
+	color: green;
+}

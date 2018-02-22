@@ -19,12 +19,14 @@
 	</div>
 	<table class="tablestyle">
 		<tr>
-			<th>Heading 1</th>
-			<th>Heading 2</th>
+			<th></th>
+			<th>
+				<a id="loginlink" href="login.jsp">Click here to go to login Page..</a>
+			</th>
 		</tr>
 		<tr>
-			<td>data 1</td>
-			<td>data 2</td>
+			<td></td>
+			<td></td>
 		</tr>
 	
 	</table>
