@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="css/login.css" />
-<script type="text/javascript" src="path/to/script.js"></script>
+<script type="text/javascript" src="js/login_sign_script.js"></script>
 <title>Login Form</title>
 </head>
 	<body>
