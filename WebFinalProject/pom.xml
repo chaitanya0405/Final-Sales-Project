@@ -101,4 +101,12 @@
 
 	</build>
 
+	<scm>
+		<url>https://github.com/chaitanya0405/Final-Sales-Project.git</url>
+		<developerConnection>Chaitanya Ghevade</developerConnection>
+		<tag>WebProject</tag>
+	</scm>
+	<ciManagement>
+		<system>localhost</system>
+	</ciManagement>
 </project>
