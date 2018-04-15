@@ -147,5 +147,29 @@ body {
 	float: right;
 	font: bold 12px Arial;
 	line-height: 36px;
-	text-align: center
+	text-align: center;
+}
+
+legend{
+	text-align: center;
+}
+input{
+	width: 165px;
+}
+
+.tablestyle {
+	table-layout: auto;
+	border-collapse: separate;
+	width: 100%;
+	padding-left: 50px;
+	font-family: helvetica;
+	text-align: left;
+	border-style: solid;
+	border-color: transparent;
+}
+
+.tablestyle th,tr{
+	width: 50%;
+	height: 50%;
+	border: 1px solid #e3e3e3;
 }
