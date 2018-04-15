@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="css/display.css" />
+<title>UserCreation</title>
+<script>
+function startTime() {
+    var today = new Date();
+    var date = today.getDate();
+	var month = today.getMonth()+1;
+	month = checkTime(month);
+	var year = today.getYear()-100;
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('DateNtime').innerHTML = date+"/"+month+"/"+year +","+ h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+<body onload="startTime()">
+	<div id="head">User Creation,Deletion,Modification Page</div>
+	<nav>
+	<ul id='menu'>
+		<li><a class='home' href='DashboardPage.html'>Dashboard</a></li>
+		<div class='prett'>
+			<li><a href='#' title='Candidate'>Candidate</a>
+				<ul class='menus'>
+					<li><a href='#' title='Candidate Addition'>Addition</a></li>
+					<li><a href='#' title='Candidate Information'>Information</a></li>
+					<li><a href='#' title='Candidate HealthnFood'>Health And Food</a></li>
+				</ul></li>
+			<li><a href='#' title='Trainer'>Trainer</a>
+				<ul class='menus'>
+					<li><a href='#' title='Trainer Addition'>Addition</a></li>
+					<li><a href='#' title='Trainer Information'>Information</a></li>
+				</ul></li>
+			<li><a href='#' title='GYM And Employee'>GYM and Employees</a>
+				<ul class='menus'>
+					<li><a href='#' title='GYM Information'>GYM Information</a></li>
+					<li><a href='#' title='GYM Instrument'>Instruments</a></li>
+					<li><a href='#' title='Employee Details'>Employees Details</a></li>
+					<li><a href='#' title='Employee Salary'>Employees Salary</a></li>
+					<li><a href='#' title='GYM Expenses'>GYM Expenses</a></li>
+					<li><a href='#' title='Employee Attendance'>Employee Attendance</a></li>
+				</ul></li>
+			<li><a href='#' title='Report'>Report</a>
+				<ul class='menus'>
+					<li><a href='#' title='User Information Report'>User Information</a></li>
+					<li><a href='#' title='Candidate Information Report'>Candidate Information</a></li>
+					<li><a href='#' title='Candidate Health Report'>Candidate Health Report</a></li>
+					<li><a href='#' title='Trainer Report'>Trainer Report</a></li>
+					<li><a href='#' title='GYM & Employee Report'>GYM & Employee Report</a></li>
+					<li><a href='#' title='GYM Instruments Report'>GYM Instruments Report</a></li>
+					<li><a href='#' title='GYM Expenses Report'>GYM Expenses Report</a></li>
+				</ul></li>
+			<li><a href='#' title='Account'>Account</a>
+				<ul class='menus'>
+					<li><a href='#' title='User Creation/Deletion/Modifying'>User C/D/M</a></li>
+					<li><a href='#' title='User Information'>User Information</a></li>
+					<li><a href='#' title='Application Settings'>Settings</a></li>
+					<li><a href='#' title='Logout'>Logout</a></li>
+				</ul></li>
+		</div>
+		<div id="DateNtime"></div>
+	</ul>
+	</nav>
+	<form action="/action_page.php" method="post">
+		<fieldset>
+			<legend>Personal Information</legend>
+			<table class="tablestyle">
+				<tr>
+					<td>First name<br></td>
+					<td><input type="text" name="firstname"><br></td>
+					<td>Last name<br></td>
+					<td><input type="text" name="lastname"><br></td>
+					<td>Mail ID<br></td>
+					<td><input type="text" name="mailid"><br></td>
+				</tr>
+				<tr>
+					<td>Birthday<br></td>
+					<td><input type="date" name="bday"><br></td>
+					<td>Mobile No<br></td>
+					<td><input type="text" name="mobile"><br></td>
+					<td>Area<br></td>
+					<td><input type="text" name="area"><br></td>
+				</tr>
+				<br>
+			</table>
+		</fieldset>
+		<br>
+		<br>
+		<br>
+		<fieldset>
+			<legend>Account Information</legend>
+			<table class="tablestyle">
+				<tr>
+					<td>UserID<br></td>
+					<td><input type="text" name="userid"><br></td>
+					<td>Password<br></td>
+					<td><input type="text" name="password"><br></td>
+					<td>Date of Joining<br></td>
+					<td><input type="text" name="mailid"><br></td>
+				</tr>
+				<br>
+			</table>
+		</fieldset>
+		<br>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
